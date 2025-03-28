@@ -1,0 +1,338 @@
+div{
+    color: rgb(141,142,145);
+}
+.container {
+    display: flex;
+    margin-left: 15px;
+    width: 100vw;/*he lenght of outside container*/
+    height: 150vh;
+}
+
+.left {
+    position: relative;
+    text-align: center;
+    width: 21%;
+    height: 1300px;
+    background-color: rgb(238, 238, 239);
+    padding: 20px;
+    margin-right: 13px;
+    border-radius: 25px;
+    margin-left: 40px;
+}
+
+.right {
+    width: 38%;
+    background-color:rgb(238, 238, 239) ;
+    padding: 20px;
+    border-radius: 25px;
+    height: 1300px;
+}
+
+}
+.card {
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(238, 238, 239);
+
+}
+
+.triangle {
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 250px;
+    background-color: rgb(3,132,199);
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    z-index: 1; /*for perfect shape*/
+    border-radius: 20px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 4px;
+    position: absolute;
+}
+
+
+
+.image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    background-image: url("image.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    z-index: 2;
+    margin-top: 20px;
+    margin-left: 30px;   
+}
+/*INFORMATION DETAILS*/
+.feild{
+    color: rgb(119,120,123);
+    margin-top: 5px;
+
+}
+.name{
+   color: rgb(3,132,199);
+   margin-top: 20px;
+   font-size: 35px;
+   font-weight: lighter;
+   /*font-family: Arial, Helvetica, sans-serif;*/
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.info{
+    color: rgb(63,63,64);
+    margin-top: 30px;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+.detail{
+    color: rgb(99,99,102);
+    margin-top: 10px;
+
+}
+/* SPACE LINE DESIGNING */
+.line {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 2px;
+    background-color: gray;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.line::before {
+    background-color: rgb(56,189,236);
+    content: "";
+    position: absolute;
+    left: 45%;
+    transform: translateX(-45%);
+    width: 30px;
+    height: 3px;
+    
+    
+}
+.skills-section {
+    font-family: Arial, sans-serif;
+}
+
+.skills-tit {
+   
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 1200px;
+    margin-left: 20px;
+    color: rgb(56,189,236);
+    margin-top: 38px;
+    margin-bottom: 20px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skill span {
+    color: rgb(141,142,145);
+    font-size: 14px;
+    flex: 1;
+    
+}
+
+.bar {
+    
+    flex: 2;
+    height: 6px;
+    background-color: lightgray;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.fill {
+    height: 100%;
+    background-color: rgb(63,63,64);
+    border-radius: 3px;
+}
+/*MOREEE8*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.more{
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+   text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-left: 2px;
+   
+}
+
+.column {
+    flex: 1;
+   
+}
+
+.title {
+   
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(56,189,236);
+}
+
+p {
+    color: gray;
+    font-size: 14px;
+    margin: 5px 0;
+}
+/*CONTACT*/
+.contact{
+    color: rgb(63,63,64);
+    font-size: 1.4rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.add{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap:10px;
+    margin-bottom: 5px;
+    margin-top: 12px;}
+.text{
+    display: flex;
+    align-items: center;
+    color: rgb(65,66,67);
+   font-size: 1.1rem;
+   
+
+}
+
+.text p{
+    color: rgb(99,99,102);
+    margin: 0px;
+    padding: 0px;
+}
+.text h5{
+  
+    margin: 2px;
+    padding: 2px;
+}
+/*refernce secton detail*/
+.reference{
+    font-size: 1.4rem;
+    color:rgb(63,63,64);
+    margin-top: 38px;
+    margin-bottom: 30px; 
+}
+.reference h5{
+    color: rgb(99,99,102);
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    text-align: left;
+    margin-top: 18px;
+    font-weight: lighter;
+}
+.reference p{
+    margin: 2px;
+    padding:2px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+/*experience section*/
+.exp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: rgb(63,63,64);
+    font-size: 1.4rem;
+    margin-top: 25px;
+}
+.work{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px; 
+    width: 100%;
+}
+.j1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   
+    
+}
+.j1, .d1 {
+   flex: 1;
+}
+.d1 h6{
+    font-size: 14px;
+    color: rgb(87,88,90);
+}
+.d1 p{
+    color: rgb(104,104,107);
+}
+.j1 h6{
+    font-size: 14px;
+    font-weight:555;
+    color: rgb(125,125,127);
+}
+.line-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.blue-box {
+    width: 20px;  
+    height: 4px;  
+    background-color: #009fe3;  
+}
+.j1 sup{
+    font-size: 11px;
+    color: rgb(144,144,147);
+
+}
+.j1 p{
+    font-size: 14px;
+    color: rgb(141,142,145);
+
+}
+.grey-lin {
+    flex: 1;
+    height: 2px; 
+    width: 12%; 
+    background-color: rgb(119,120,123);
+}
+/*hobby section */
+.hob{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    text-align: center;
+}
+/*ENDDDD*/
